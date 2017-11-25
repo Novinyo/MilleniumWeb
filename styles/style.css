@@ -10,6 +10,7 @@ html {
 body {
 	/*font-family: 'Montserrat', sans-serif;*/
 	font-feature-settings: "kern", "liga", "pnum";
+	
 -webkit-font-smoothing: antialiased;
 color: #555f77;
 font-family: "Lato";

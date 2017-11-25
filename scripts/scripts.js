@@ -19,7 +19,6 @@
 		var nextbtn = document.createElement('button');
 		nextbtn.className = 'next';
 		nextbtn.setAttribute('aria-label', 'Next');
-
 		//create counter
 		var counter = document.createElement('div');
 		counter.className = 'counter';
