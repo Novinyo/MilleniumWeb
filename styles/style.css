@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 * {
 	box-sizing: border-box;
 }
@@ -7,8 +8,14 @@ html {
 	font-size: calc(4px + 0.45vw);
 }
 body {
-	font-family: 'Montserrat', sans-serif;
-	color: #000;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-feature-settings: "kern", "liga", "pnum";
+-webkit-font-smoothing: antialiased;
+color: #555f77;
+font-family: "Lato";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
 }
 a {
 	text-decoration: none;
@@ -16,6 +23,9 @@ a {
 }
 *:focus {
   outline: 0;
+}
+.card{
+	border: 0px solid #ccc;
 }
 /* Primary Style
 --------------------------------*/
@@ -52,7 +62,7 @@ header h1 {
 	font-family: 'Oswald', sans-serif;
   width: 30rem;
   margin-top: 0;
-  color: #F1C40F;
+  color: #da594c;;
   margin-left: -1.8em;
   height: 60px !important;
 }
@@ -99,9 +109,9 @@ header li a {
 .text {
 	font-size: 2rem;
 	padding: 2rem 0;
-	-moz-columns: 3;
-	-webkit-columns: 3;
-	columns: 3;
+	-moz-columns: 2;
+	-webkit-columns: 2;
+	columns: 2;
 }
 .text p {
 	margin-bottom: 2rem;
@@ -272,4 +282,47 @@ nav {
 	.image { width: 100%; }
 	.content { padding-right: 2rem; }
 	nav { left: 0; right: auto; }
+}
+#contact{
+
+}
+#contact h1{
+    font-family: "MenschRegular", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+    color: #da594c;
+    line-height: 50px;
+    margin-bottom: 0px;
+		text-align: center;
+
+}
+#contact p {
+    line-height: 25px;
+    font-size: 18px;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#map {
+			 height: 100%;
+		 }
+#about .head, h2{
+	text-align: center;
+	font-weight: 300;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-size: 36px;
+  line-height: 1.25;
+}
+#about .summary{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 3rem;
+}
+
+
+.phone p, address{
+	margin-left: 3%;
+	font-size: 16px;
+	margin-bottom: 1.5rem;
 }
